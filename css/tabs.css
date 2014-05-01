@@ -1,0 +1,34 @@
+﻿.tabHeader {
+    margin: 0;
+    padding: 2px 0;
+    list-style: none;
+}
+
+.tabHeader li {
+    display: inline;
+    background: #ccc;
+    border: 1px solid #888;
+    border-bottom: 0;
+    margin-right:3px;
+    padding: 3px;
+}
+
+.tabHeader li.current {
+    background: #b5cbe9;
+    padding-bottom: 3px;
+}
+
+.tabContent {
+    border: 1px solid #abdfed;
+    padding: 0 12px;
+    width: 500px;
+}
+
+.tabContent > * {
+    display: none;
+}
+
+.tabContent > .current {
+    display: block;
+}
+

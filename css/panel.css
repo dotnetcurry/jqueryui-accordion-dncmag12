@@ -1,0 +1,69 @@
+﻿#divlogin {
+    position: absolute;
+    display: none;
+    height: 60px;
+    width: 100%;
+    left:0px;
+    top: 0px;
+    color: #eee;
+    background-color: #4679bd;
+}
+
+input, label {
+    float:left;
+    margin:5px;
+}
+
+
+/* Testimonials */
+
+#twrapper {
+       position: relative;  
+       height: 300px;
+       margin: 0;     
+       background: #4679bd;     
+       padding: 20px 60px;      
+       font: 24px Georgia, serif;     
+       color: #666;     
+       border-radius: 9px;     
+       font-style: italic;        
+}
+
+#twrapper > p {
+    display:none;
+    color:white;
+    padding: 18px 2px 20px 70px;
+}
+
+.quote {
+    float:left;
+    background:url(/images/quote.png) no-repeat top;
+    width:65px;
+    height:45px;
+}
+
+/* Testimonials */
+
+/* Accordion */
+#container {
+    width:500px;
+}
+
+.accordion h3 {
+    display: block;
+    background-color:#ff6a00;
+    cursor:pointer;
+}
+
+.accordion p {
+    display: none;
+}
+
+/* Site Notifications Using Panels */
+#note{
+    display:none;
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+
